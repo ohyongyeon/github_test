@@ -101,3 +101,24 @@ print(dir(im_str)) # __iter__
 # 출력
 for i in im_str:
     print(i)
+
+# 슬라이싱
+str_sl = "Nice Python"
+
+
+# 슬라이싱 연습
+print(str_sl[0:3]) # -1 // 0, 1, 2
+print(str_sl[5:11]) # [5:11] = [5:]
+print(str_sl[:len(str_sl)]) # str_sl[:11]
+print(str_sl[:len(str_sl)-1]) # str_sl[:10]
+print(str_sl[1:9:2]) # 점프
+print(str_sl[-5:]) # 뒤부터
+print(str_sl[1:-2])
+print(str_sl[::2]) # 처음부터 끝까지 2칸 점프
+print(str_sl[::-1]) # 역으로
+
+# 아스키 코드
+a = 'z'
+print(ord(a)) # 아스키 코드로
+print(chr(122)) # 문자로
+
