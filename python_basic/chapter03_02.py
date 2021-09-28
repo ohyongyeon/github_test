@@ -23,7 +23,6 @@ print(type(str_t2), len(str_t2))
 # I'm boy
 """
 참고 : Escape 코드
-
 \n : 개행
 \t : 탭
 \\ : 문자
@@ -121,4 +120,3 @@ print(str_sl[::-1]) # 역으로
 a = 'z'
 print(ord(a)) # 아스키 코드로
 print(chr(122)) # 문자로
-

@@ -1,4 +1,11 @@
-print('P', 'Y', 'T', 'H', 'O', 'N', sep='@')
+# %d 정수
+print('%d %d' % (1,2))
+print('{} {}'.format(1,2))
 
-print('%s %s' % ('one', 'two'))
-print('{} {} {} {}'.format ('one', 'two', 'three', 'four'))
+print('%4d' % (42))
+print('{:4d}'.format(42))
+print('test')
+print('{:d}'.format(42))
+print('test')
+
+print('{:5d}'.format(42))
